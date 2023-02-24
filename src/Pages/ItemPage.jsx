@@ -11,7 +11,7 @@ function ItemPage() {
 
   useEffect(() => {
     axios
-      .get(`https://skyrent-production-21dc.up.railway.app/places/${pk}`)
+      .get(`https://back-a9hq.onrender.com/places/${pk}`)
       .then((response) => setPost(response.data))
   }, [])
 
