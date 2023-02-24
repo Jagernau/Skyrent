@@ -15,7 +15,7 @@ Skyrent - это веб-приложение для аренды жилья на
 
 - Backend: Python FastAPI, SQLite
 - Frontend: React
-- Сервер Бэкэнд: https://back-a9hq.onrender.com/
+- Сервер Бэкэнд: https://back-xpag.onrender.com
 - Сервер Frontend: https://front-ys1u.onrender.com/
 
 ## Запуск приложения

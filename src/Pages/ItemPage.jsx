@@ -11,7 +11,7 @@ function ItemPage() {
 
   useEffect(() => {
     axios
-      .get(`https://back-a9hq.onrender.com/places/${pk}`)
+      .get(`https://back-xpag.onrender.com/places/${pk}`)
       .then((response) => setPost(response.data))
   }, [])
 

@@ -8,7 +8,7 @@ function AxiosGet() {
 
   useEffect(() => {
     axios
-      .get('https://back-a9hq.onrender.com/places/')
+      .get('https://back-xpag.onrender.com/places/')
       .then((response) => setListingData(response.data))
   }, [])
 
