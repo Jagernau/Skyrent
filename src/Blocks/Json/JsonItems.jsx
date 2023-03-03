@@ -8,7 +8,7 @@ function AxiosGet() {
 
   useEffect(() => {
     axios
-      .get('https://skyrent-production-21dc.up.railway.app/places/')
+      .get('https://back-xpag.onrender.com/places/')
       .then((response) => setListingData(response.data))
   }, [])
 
@@ -21,7 +21,7 @@ function AxiosGet() {
       {listingData.map((list) => (
         <S.ItemWrapper>
           <Link key={list.pk} to={`/item/${list.pk}`}>
-            <S.ImgItem src={list.picture_url} alt="{list.country} " />
+            <S.ImgItem src={list.picture_url} alt={list.country} />
 
             <S.LocationWrapper>
               <S.Location>

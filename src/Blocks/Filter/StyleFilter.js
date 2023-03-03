@@ -20,7 +20,7 @@ export const FilterWrapper = styled.div`
   margin-bottom: 41px;
   cursor: pointer;
 `
-export const FilterActiveWrapper = styled.div`
+export const FilterActiveWrapper = styled.form`
   border: 1px solid #d9d9d9;
   border-radius: 4px;
   width: 368px;
@@ -74,6 +74,7 @@ export const FilterWrapperBottom = styled.div`
   height: 49px;
   background: #d9d9d9;
   border-radius: 4px;
+  cursor: pointer;
 `
 export const SelectFilter = styled.select`
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');

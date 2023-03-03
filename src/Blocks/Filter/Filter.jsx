@@ -8,7 +8,7 @@ function Filter() {
   useEffect(() => {
     axios
 
-      .get('https://skyrent-production-21dc.up.railway.app/places/')
+      .get('https://back-xpag.onrender.com/places/')
 
       .then((response) => setListingData(response.data))
   }, [])
