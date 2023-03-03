@@ -13,7 +13,7 @@ function ItemPage() {
     axios
       .get(`https://back-xpag.onrender.com/places/${pk}`)
       .then((response) => setPost(response.data))
-  }, [])
+  }, [pk])
 
   const [activeInfo, setActiveInfo] = useState(true)
 
@@ -27,12 +27,12 @@ function ItemPage() {
         <div className="centr">
           <S.Header>
             <div className="vector">
-              <a href="./">
+              <a href="/">
                 <img src={Vector} alt="Logo" />
               </a>
             </div>
             <div className="logo">
-              <a href="./">
+              <a href="/">
                 <img src={LogoImg} alt="Logo" />
               </a>
             </div>
@@ -45,6 +45,7 @@ function ItemPage() {
           <S.ImgItem src={post.picture_url} alt="{list.country} " />
           <S.Features>
             <S.FeaturesTitle>Что есть внутри</S.FeaturesTitle>
+
             <p>{post.features_on}</p>
             <p>{post.features_off}</p>
           </S.Features>

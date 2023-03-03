@@ -21,7 +21,7 @@ function AxiosGet() {
       {listingData.map((list) => (
         <S.ItemWrapper>
           <Link key={list.pk} to={`/item/${list.pk}`}>
-            <S.ImgItem src={list.picture_url} alt="{list.country} " />
+            <S.ImgItem src={list.picture_url} alt={list.country} />
 
             <S.LocationWrapper>
               <S.Location>
